@@ -14,9 +14,9 @@ pi = 3
 
 for i in range(15):
     aproximacao.append(4/ (par1 * par2 * par3))
-    par1 += 3
-    par2 += 3
-    par3 += 3
+    par1 += 2
+    par2 += 2
+    par3 += 2
 
 resultadoNumeros += aproximacao[0]
 for i, aprox in enumerate(aproximacao):
